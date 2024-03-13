@@ -28,8 +28,8 @@ For time series datasets:
 
 python Time_series/train_series.py --gcn_bool  --dataset
 
-
-
+## Experimental result
+[I uploaded the model's training log on the PeMSD8 dataset](https://github.com/ZhuoLinLi-shu/TPGCN/tree/main/Pems4/log)
 
 ## Citing
 
