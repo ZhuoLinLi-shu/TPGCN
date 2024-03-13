@@ -4,7 +4,6 @@ import numpy as np
 def load_st_dataset(dataset):
     #output B, N, D
     if dataset == 'PEMSD4':
-        # todo 这里很神奇的就是，按道理来讲应该加上..,但是加上就错了，去掉就对，我也是无语了
         data_path = os.path.join('data/PeMSD4/pems04.npz')
         data = np.load(data_path)['data'][:, :, 0]  #onley the first dimension, traffic flow data
     elif dataset == 'PEMSD8':
